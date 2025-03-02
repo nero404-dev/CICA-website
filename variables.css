@@ -1,0 +1,55 @@
+:root {
+
+    /* --green: #256112; */
+    --green: #00a473;
+    --green_transparent: rgba(0, 164, 115, 0.600);
+    /* --pink: #eea4db; */
+    --orange: #ee793e;
+    --orange_transparent: rgba(238, 121, 62, 0.600);
+    --light_grey: #a4a4a4;
+
+    --f1: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    --f2: fantasy;
+
+}
+
+#shadow_hr {
+    background-color: #256112;
+    height: 3px;
+    box-shadow: 0 2px 4px rgba(0,0,0,1);
+    width: 100%;
+    margin: 0 auto;
+}
+
+#shadow_hr_before_footer {
+    background-color: #256112;
+    height: 3px;
+    box-shadow: 0 2px 4px rgba(0,0,0,1);
+    width: 100%;
+    margin: 30px auto;
+    /* border-radius: 30px; */
+}
+
+#hr_between {
+    width: 80%;
+    margin: 0 auto;
+    height: 1px;
+    background-color: var(--orange);
+    border-radius: 30px;
+}
+
+#hr_between_cats {
+    width: 80%;
+    margin: 30px auto;
+    height: 1px;
+    background-color: var(--orange);
+    border-radius: 30px;
+}
+
+#hr_between_li {
+    width: 80%;
+    margin: 50px auto;
+    height: 1px;
+    background-color: var(--orange);
+    border-radius: 30px;
+}
